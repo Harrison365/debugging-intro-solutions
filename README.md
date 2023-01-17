@@ -1,0 +1,12 @@
+-typo
+-undefined variable (return cat //there is no cat)
+-reassign a const (count)
+-square brackets vs. dot notation
+-missing arguement
+-incorrect path
+-wrong comparison operator
+-data type (returns string not num)
+-trying to add a string
+-object key doesnt exist
+-Harrison's Comparisons
+-bad logic (wrong if statement stuff)
