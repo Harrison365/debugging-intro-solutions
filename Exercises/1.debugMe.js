@@ -1,4 +1,4 @@
-const { check, runTest, skipTest } = require("./test-api/index");
+const { check, runTest, skipTest } = require("../test-api/index");
 
 function sayHello() {
   return "hello  Studens.";
