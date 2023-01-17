@@ -6,7 +6,7 @@ function accessObject(mentor) {
     Lewis: "Cactus",
     Harrison: "Venus Fly Trap",
   };
-  return plants[mentor];
+  return plants.mentor;
 }
 
 runTest("Return the plant of the passed mentor", function () {
