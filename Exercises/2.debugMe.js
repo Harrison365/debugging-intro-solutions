@@ -3,7 +3,7 @@ const { check, runTest, skipTest } = require("../test-api/index");
 //make the function return "Hello, I am a cat and my name is Jewels"
 
 function returnCatString() {
-  const catName = "Jewls";
+  const catName = "Jewels";
   return `Hello, I am a cat and my name is ${catName}`;
 }
 

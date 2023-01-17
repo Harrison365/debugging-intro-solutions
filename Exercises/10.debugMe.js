@@ -8,7 +8,7 @@ function findingNemo(fish) {
     "Sea Turtle": "Crush",
   };
 
-  return tank[fish];
+  return fishTank[fish];
 }
 
 runTest("Get finsdingNemo to return the name of the given fish", function () {

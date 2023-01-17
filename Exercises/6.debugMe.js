@@ -1,6 +1,6 @@
 //Find the Error in this file.
 
-const { check, runTest, skipTest } = require("./test-ai/index");
+const { check, runTest, skipTest } = require("../test-api/index");
 
 function addSnack(snack) {
   const snacks = [

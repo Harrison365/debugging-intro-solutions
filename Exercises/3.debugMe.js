@@ -3,7 +3,7 @@ const { check, runTest, skipTest } = require("../test-api/index");
 //
 
 function returnMentorString(mentor) {
-  return "Hello" + Mentor + "!";
+  return "Hello " + mentor + "!";
 }
 
 runTest('Get returnMentorString to return "Hello Hannah!"', function () {

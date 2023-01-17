@@ -1,7 +1,7 @@
 const { check, runTest, skipTest } = require("../test-api/index");
 function returnLastDigit(numberStr) {
   digitsArray = numberStr.split("");
-  return digitsArray[digitsArray.length - 1];
+  return Number(digitsArray[digitsArray.length - 1]);
 }
 
 runTest("Get returnLastDigit to return the correct number", function () {
