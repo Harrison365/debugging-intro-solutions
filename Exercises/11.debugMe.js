@@ -27,4 +27,3 @@ runTest("Get highFlyers to return all known flyers", function () {
     { name: "Wonderwoman", ability: "flying", isAnonymous: false },
   ]);
 });
-//test
